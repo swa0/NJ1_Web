@@ -23,7 +23,7 @@ header {
 
         //跑馬燈
         .marqueeArea {
-            width: 30%;
+            width: 32%;
             height: 100%;
 
             .center {
@@ -76,32 +76,32 @@ header {
         }
 
         //排行榜
-        .rankBtn {
-            color: $remind;
-            padding-left: 25px;
-            margin-right: 15px;
-            cursor: pointer;
-            position: relative;
+        // .rankBtn {
+        //     color: $remind;
+        //     padding-left: 25px;
+        //     margin-right: 15px;
+        //     cursor: pointer;
+        //     position: relative;
 
-            &::before {
-                content: "";
-                width: 20px;
-                height: 20px;
-                background-position-y: 0%;
-                position: absolute;
-                left: 0%;
-                top: 50%;
-                transform: translateY(-50%);
-            }
+        //     &::before {
+        //         content: "";
+        //         width: 20px;
+        //         height: 20px;
+        //         background-position-y: 0%;
+        //         position: absolute;
+        //         left: 0%;
+        //         top: 50%;
+        //         transform: translateY(-50%);
+        //     }
 
-            &:hover {
-                color: $mainFont_3;
+        //     &:hover {
+        //         color: $mainFont_3;
 
-                &::before {
-                    background-position-y: 99%;
-                }
-            }
-        }
+        //         &::before {
+        //             background-position-y: 99%;
+        //         }
+        //     }
+        // }
 
         //退傭代理註冊頁面NAV
         .agentNav {

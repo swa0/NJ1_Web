@@ -23,11 +23,6 @@ header .transferInfo .money i {
   background-size: 100%;
 }
 
-header .rankBtn::before {
-  background: url("../images/icon/rank_icon.png") no-repeat;
-  background-size: 100%;
-}
-
 .topGameList .prev::before,
 .topGameList .next::before {
   background: url("../images/icon/svg/arrow_w.svg") no-repeat;
@@ -369,6 +364,12 @@ footer .partner .evo {
 .innerNav .invite_ic,
 .innerNav .invite_ic::before {
   background: url("../images/icon/svg/innerNav_invite.svg") no-repeat;
+  background-size: 100%;
+}
+
+.innerNav .rank_ic,
+.innerNav .rank_ic::before {
+  background: url("../images/icon/svg/innerNav_rank.svg") no-repeat;
   background-size: 100%;
 }
 
@@ -1029,7 +1030,7 @@ html body header .top .logo {
   cursor: pointer;
 }
 html body header .top .marqueeArea {
-  width: 30%;
+  width: 32%;
   height: 100%;
 }
 html body header .top .marqueeArea .center {
@@ -1092,30 +1093,6 @@ html body header .top .marqueeArea .center .marqueeWrap .marquee p {
     -webkit-transform: translate(-100%);
             transform: translate(-100%);
   }
-}
-html body header .top .rankBtn {
-  color: #35b751;
-  padding-left: 25px;
-  margin-right: 15px;
-  cursor: pointer;
-  position: relative;
-}
-html body header .top .rankBtn::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  background-position-y: 0%;
-  position: absolute;
-  left: 0%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-html body header .top .rankBtn:hover {
-  color: #fb770a;
-}
-html body header .top .rankBtn:hover::before {
-  background-position-y: 99%;
 }
 html body header .top .agentNav {
   min-width: 897px;
@@ -4929,6 +4906,10 @@ html body .innerPage .center .innerSide .innerNav li i.dividend_ic {
 html body .innerPage .center .innerSide .innerNav li i.invite_ic {
   width: 20px;
   height: 20px;
+}
+html body .innerPage .center .innerSide .innerNav li i.rank_ic {
+  width: 16px;
+  height: 16px;
 }
 html body .innerPage .center .innerSide .innerNav li .remind {
   width: 18px;

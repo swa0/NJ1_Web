@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.25">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="js/slick-1.8.1/slick/slick.min.js"></script>
-    <script src="./js/javascript.js"></script>
-    <link rel="shortcut icon" href="./images/NJLOGO_64x64.ico" type="image/x-icon">
+    <script src="../js/javascript.js"></script>
+    <link rel="shortcut icon" href="../images/NJLOGO_64x64.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <!--上部-->
         <div class="top">
             <!--logo-->
-            <img class="logo" src="./images/icon/logo.png" onclick="window.location.href='./index.html'">
+            <img class="logo" src="../images/icon/logo.png" onclick="window.location.href='./index.html'">
             <!--跑馬燈-->
             <!-- <div class="marqueeArea">
                 <div class="center">
@@ -30,39 +30,8 @@
                     </div>
                 </div>
             </div> -->
-            <!--右_未登入-->
-            <ul class="user login display">
-                <!--未登入選單-->
-                <li class="rankBtn" onclick="window.location.href='./index_Rank.html'">ランキングページ</li>
-                <li>
-                    <form class="loginForm">
-                        <div>
-                            <input type="text" placeholder="アカウントまたは携帯番号">
-                        </div>
-                        <div>
-                            <input type="password" placeholder="パスワード">
-                        </div>
-                        <button class="loginBtn" type="button">ログイン</button>
-                        <button class="signupBtn" type="button" onclick="window.location.href='./html/register.html'">登録</button>
-                    </form>
-                </li>
-                <!--忘記密碼-->
-                <li class="forget">
-                    <i></i>
-                    パスワードをお忘れの方
-                </li>
-                <!--語言列-->
-                <li class="lang">
-                    <select>
-                        <option>繁體中文</option>
-                        <option>简体中文</option>
-                        <option>ENGLISH</option>
-                        <option selected>日本語</option>
-                    </select>
-                </li>
-            </ul>
             <!--右_已登入-->
-            <ul class="user alLogin">
+            <ul class="user alLogin display">
                 <!--等級-->
                 <li class="lv">
                     ゴールド会員
@@ -372,25 +341,25 @@
                     </ul>
                 </li>
                 <li>
-                    <button onclick="window.location.href='./html/deposit.html'">入金</button>
+                    <button onclick="window.location.href='./deposit.html'">入金</button>
                 </li>
                 <li>
-                    <button onclick="window.location.href='./html/transfer.html'">振替</button>
+                    <button onclick="window.location.href='./transfer.html'">振替</button>
                 </li>
                 <li>
-                    <button onclick="window.location.href='./html/withdrawal.html'">出金</button>
+                    <button onclick="window.location.href='./withdrawal.html'">出金</button>
                 </li>
                 <li>
-                    <button onclick="window.location.href='./html/member.html'">マイページ</button>
+                    <button onclick="window.location.href='./member.html'">マイページ</button>
                 </li>
                 <li>
-                    <button onclick="window.location.href='./html/mail.html'">
+                    <button onclick="window.location.href='./mail.html'">
                         インボックス
                         <p class="remind display">2</p>
                     </button>
                 </li>
                 <li>
-                    <button onclick="window.location.href='./index.html'">ログアウト</button>
+                    <button onclick="window.location.href='../index.html'">ログアウト</button>
                 </li>
                 <li class="lang">
                     <select>

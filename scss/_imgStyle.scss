@@ -9,12 +9,6 @@ header .transferInfo .money i {
     background-size: 100%;
 }
 
-//header 排行榜
-header .rankBtn::before {
-    background: url('../images/icon/rank_icon.png') no-repeat;
-    background-size: 100%;
-}
-
 //下拉選單 topGameList arrow
 .topGameList .prev::before,
 .topGameList .next::before {
@@ -305,6 +299,11 @@ footer .partner .evo {
 .innerNav .invite_ic,
 .innerNav .invite_ic::before {
     background: url('../images/icon/svg/innerNav_invite.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .rank_ic,
+.innerNav .rank_ic::before {
+    background: url('../images/icon/svg/innerNav_rank.svg') no-repeat;
     background-size: 100%;
 }
 
