@@ -95,6 +95,10 @@
                             &.line {
                                 padding-left: 50px;
                             }
+
+                            &.socialMedia {
+                                padding: 0 0 0 40px;
+                            }
                         }
 
                         .date_ic,
@@ -121,6 +125,31 @@
                             position: absolute;
                             right: 5px;
                             font-size: 12px;
+                        }
+
+                        .socialMedia_icon {
+                            width: 30px;
+                            height: 30px;
+                            position: absolute;
+                            left: 20px;
+
+                            &::before {
+                                content: "";
+                                width: 70%;
+                                height: 70%;
+                                background: #fff;
+                                border-radius: 50px;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%,-50%);
+                                z-index: 1;
+                            }
+
+                            &>svg {
+                                position: relative;
+                                z-index: 5;
+                            }
                         }
                     }
 

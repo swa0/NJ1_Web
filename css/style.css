@@ -11317,6 +11317,9 @@ html body .registerWrap .bigBox .inputBox form label div input::placeholder {
 html body .registerWrap .bigBox .inputBox form label div input.line {
   padding-left: 50px;
 }
+html body .registerWrap .bigBox .inputBox form label div input.socialMedia {
+  padding: 0 0 0 40px;
+}
 html body .registerWrap .bigBox .inputBox form label div .date_ic,
 html body .registerWrap .bigBox .inputBox form label div .eye_ic {
   position: absolute;
@@ -11353,6 +11356,29 @@ html body .registerWrap .bigBox .inputBox form label div .codeBtn:hover, html bo
 }
 html body .registerWrap .bigBox .inputBox form label div .codeBtn:hover::before, html body .registerWrap .bigBox .inputBox form label div .codeBtn:active::before, html body .registerWrap .bigBox .inputBox form label div .codeBtn.active::before {
   display: none;
+}
+html body .registerWrap .bigBox .inputBox form label div .socialMedia_icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+}
+html body .registerWrap .bigBox .inputBox form label div .socialMedia_icon::before {
+  content: "";
+  width: 70%;
+  height: 70%;
+  background: #fff;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+}
+html body .registerWrap .bigBox .inputBox form label div .socialMedia_icon > svg {
+  position: relative;
+  z-index: 5;
 }
 html body .registerWrap .bigBox .inputBox form label .remind {
   width: 340px;
